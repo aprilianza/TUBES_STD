@@ -4,7 +4,7 @@ int main() {
     ListKamar L;
     createListKamar(L);
     bool mainMenu = false;
-    int pilihan,pilihan2;
+    int pilihan;
     insertDummyData(L);
     while (!mainMenu) {
         clearTerminal();

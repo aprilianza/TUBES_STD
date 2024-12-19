@@ -311,8 +311,6 @@ void searchPelanggan(ListKamar k){
     // Inisial state: Elemen pelanggan dengan data tertentu mungkin ada atau tidak.
     // Final state: Status ditemukan atau tidak dicetak ke layar, dan informasi pelanggan dicetak jika ditemukan.
     int noKamar;
-    char pilihan;
-    bool menu = true;
     string idBooking;
     cout << "Masukkan Nomor Kamar: ";
     cin >> noKamar;
